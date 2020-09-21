@@ -1,8 +1,10 @@
+----------
 *Analisis de complejidad*
+---------
 
--------------
 En este proyecto lo que se hace es revisar un documento de texto con los datos de actividad de un edificio científico en un día
------------------
+
+
 
 En la creacion de los vectores, la complejidad es O(n), ya que es lineal
 
