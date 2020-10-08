@@ -1,7 +1,7 @@
 *Complejidad del proyecto*
 ------------------------
 
-Al abrir el archivo txt, es complejidad O(0), ya que solo 
+Al abrir el archivo txt, es complejidad O(0), ya que solo se utiliza un paso para hacerlo
 
 Al guardar los datos del archivo en vectores, es de la complejidad O(n), ya que recorre los datos de manera lineal
 
