@@ -13,4 +13,4 @@ La busqueda de datos es de complejidad O(n), ya que se recorre el vector de mane
 
 Imprimir y guardar los datos en un nuevo archivo de texto es complejidad O(1), ya que solo se nesecita un paso para realizarlo
 
-Al agregar los datos en un BTS, es 
+Al agregar los datos en un BTS, es de complejidad O(n), ya que se tiene que recorrer el arbol de una manera lineal para poner el dato
