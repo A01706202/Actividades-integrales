@@ -3,6 +3,7 @@
 
 *En main.cpp*
 
+
 *Para trabajo de los datos en horas*
 
 *Caso 1*
@@ -106,3 +107,88 @@ output:
 11:20 Lucy 435 Salio de edificio
 
 ----------------------------------------------
+
+*Para trabajo de los datos por ID*
+
+
+*Caso 1*
+
+input: 
+
+-inicio: 465
+
+-final: 906
+
+
+output: 
+
+07:30 Lyudmina 554 Ingreso a edificio
+
+07:33 Lyudmina 554 Ingreso a base_de_datos
+
+08:20 Lyudmina 554 Ingreso a laboratorio
+
+09:00 Lyudmina 554 Ingreso a cafeteria
+
+09:38 Lyudmina 554 Ingreso a jardin
+
+10:20 Lyudmina 554 Ingreso a observatorio
+
+12:00 Lyudmina 554 Salio de edificio
+
+
+
+*Caso 2*
+
+input: 
+
+-inicio: 300
+
+-final: 555
+
+
+output: 
+
+07:20 Adrian 348 Ingreso a laboratorio
+
+09:00 Adrian 348 Ingreso a cafeteria
+
+10:00 Adrian 348 Ingreso a administracion
+
+10:30 Adrian 348 Ingreso a laboratorio
+
+10:40 Adrian 348 Ingreso a base_de_datos
+
+11:30 Adrian 348 Salio de edificio
+
+07:15 Adrian 348 Ingreso a edificio
+
+07:26 Lucy 435 Ingreso a cafeteria
+
+07:40 Lucy 435 Ingreso a observatorio
+
+08:30 Lucy 435 Ingreso a laboratorio
+
+09:15 Lucy 435 Ingreso a cafeteria
+
+09:56 Lucy 435 Ingreso a base_de_datos
+
+10:40 Lucy 435 Ingreso a jardin
+
+11:20 Lucy 435 Salio de edificio
+
+07:22 Lucy 435 Ingreso a edificio
+
+07:30 Lyudmina 554 Ingreso a edificio
+
+07:33 Lyudmina 554 Ingreso a base_de_datos
+
+08:20 Lyudmina 554 Ingreso a laboratorio
+
+09:00 Lyudmina 554 Ingreso a cafeteria
+
+09:38 Lyudmina 554 Ingreso a jardin
+
+10:20 Lyudmina 554 Ingreso a observatorio
+
+12:00 Lyudmina 554 Salio de edificio
