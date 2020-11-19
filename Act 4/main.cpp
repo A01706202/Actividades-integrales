@@ -5,7 +5,7 @@ Actividad integral
 
 En este proyecto lo que se hace es revisar un documento
 de texto con los datos de actividad de un edificio 
-científico en un día
+cientÃ­fico en un dÃ­a
 ------------------------------*/
 
 #include <iostream>
@@ -59,8 +59,8 @@ int main(int argc, char* argv[]) {
 	
 	//Texto que explica al usuario de que va el programa
 	cout<<"Registro de un dia de LAM\n"<<endl;
-	cout<<"Bienvenid@ a la base de datos del edificio de investigaciones científicas LAM, a continuación podrás ver el registro"<<endl;
-	cout<<"del dia 01-oct, ¿que le gustaria revisar? \n\n"<<endl;
+	cout<<"Bienvenid@ a la base de datos del edificio de investigaciones cientÃ­ficas LAM, a continuaciÃ³n podrÃ¡s ver el registro"<<endl;
+	cout<<"del dia 01-oct, Â¿que le gustaria revisar? \n\n"<<endl;
 	
 	//Se elige si quiere ver registros de actividad o lugares concurridos
 	cout<<"1) Registros de actividad"<<endl;
@@ -71,7 +71,7 @@ int main(int argc, char* argv[]) {
 	if(eleccion == 1){
 		
 		//Se elige si se quiere trabajar con los datos de horas o de id
-		cout<<"1) Hora"<<endl;
+		cout<<"\n1) Hora"<<endl;
 		cout<<"2) ID"<<endl;
 		cout<<"Opcion: ";
 		cin>>opcion;
@@ -86,7 +86,7 @@ int main(int argc, char* argv[]) {
 	    	//inicio="09:30";
 	    	//final="11:20";
 	    
-	    	//Se da el rango de búsqueda
+	    	//Se da el rango de bÃºsqueda
 		    cout<<"Ingresa hora inicial (en formato '00:00' y de 24hr): ";
 		    cin>>inicio;
 		    cout<<"Ingresa hora final (en formato '00:00' y de 24hr): ";
@@ -98,7 +98,7 @@ int main(int argc, char* argv[]) {
 			    cout<<"error";
 		    
 			else{
-				//Ordena los datos de la hora más temprana a la más tarde
+				//Ordena los datos de la hora mÃ¡s temprana a la mÃ¡s tarde
 			    b.ordenar_datos(v,hora); 
 			    //Busca los datos del rango dado
 			    b.buscar_datos(v, hora, inicio, final);
@@ -113,7 +113,7 @@ int main(int argc, char* argv[]) {
 		    //inicio="300";
 		    //final="555";
 	    
-		    //Se da el rango de búsqueda
+		    //Se da el rango de bÃºsqueda
 		    cout<<"Ingresa ID inicial (numero entre 100-1000): ";
 		    cin>>inicio;
 		    cout<<"Ingresa ID final (numero entre 100-1000): ";
@@ -125,33 +125,33 @@ int main(int argc, char* argv[]) {
 			    cout<<"error";
 		    
 			else{
-				//Ordena los datos del ID más bajo al más alto
+				//Ordena los datos del ID mÃ¡s bajo al mÃ¡s alto
 				b.ordenar_datos(v,ID); 
 				//Busca los datos del rango dado
 			    b.buscar_datos(v, ID, inicio, final); 
 			}
 		}
 	
-		//Si la opcion no es horas ni ID, regresa que la opcion dada es inválida
+		//Si la opcion no es horas ni ID, regresa que la opcion dada es invÃ¡lida
 		else{
 			cout<<"Opcion invalida";
 		}
 	}
 	
 	else if(eleccion==2){
-		//Se abre un árbol heap para los lugares
+		//Se abre un Ã¡rbol heap para los lugares
 		Heap<int> heap(6);
 	
-		//Se agregan los datos al árbol
+		//Se agregan los datos al Ã¡rbol
 		heap.agregar_dato(lugar);
 	
-		//Muestra los 5 lugares más concurridos
+		//Muestra los 5 lugares mÃ¡s concurridos
 		cout << "\n\n\nLos 5 lugares mas concurridos del dia: \n\n";
 		heap.mas_concurridos();
 
 	}
 	
-	//Si no se pone el número de eleccion disponible, aparecerá que hay un error
+	//Si no se pone el nÃºmero de eleccion disponible, aparecerÃ¡ que hay un error
 	else
 	    cout << "\n\nError";
 }
