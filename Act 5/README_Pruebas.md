@@ -1,4 +1,6 @@
 Caso 1
+----
+
 input:
 
 -eleccion: 1
@@ -64,6 +66,8 @@ final: 10:00
 10:00 Adrian 348 Ingreso a administracion
 
 Caso 2
+----
+
 -input:
 
 eleccion: 1
@@ -121,6 +125,8 @@ final: 555
 12:00 Lyudmina 554 Salio de edificio
 
 Caso 3
+----
+
 -input:
 
 eleccion: 2
@@ -140,6 +146,8 @@ Los 5 lugares mas concurridos del dia:
 5 Base de datos
 
 Caso 4
+----
+
 -input: 
 
 eleccion: 3
