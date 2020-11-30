@@ -19,3 +19,7 @@
 -Al añadir los datos al árbol heap, es complejidad O(log(n)) ya que divide el arbol para poner el dato
 
 -Al mostrar los lugares más concurridos es de complejidad O(n), porque tiene que recorrer los datos árbol de manera lineal para saber a que lugar corresponde y mostrarlo
+
+-Para insertar los datos en la tabla hash de nombres(llave) con sus IDs(valor) es complejidad O(1), ya que toma un paso en hacerlo al ser hashing
+
+-Para buscar el ID de un empleado es complejidad O(1), ya que se utilizan las busquedas en las tabla Hash, la cual nos lleva un paso.
