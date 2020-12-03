@@ -11,7 +11,7 @@
 
 -La busqueda de datos es de complejidad O(n), ya que es una búsqueda secuencial, en donde recorre el vector de manera lineal
 
--Imprimir y guardar los datos en un nuevo archivo de texto es complejidad O(n), ya que solo se nesecita un paso para realizarlo
+-Escribir los datos en un nuevo archivo de texto es complejidad O(n), ya que ocupa un ciclo lineal para hacerlo
 
 -Al contar los lugares repetidos y guardarlos en los valores es de complejidad O(n), ya que recorre el vector de manera lineal
 
