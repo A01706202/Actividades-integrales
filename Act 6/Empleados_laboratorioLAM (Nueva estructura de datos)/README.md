@@ -1,11 +1,15 @@
 **Shell Sort**
 -----------------
-Es una variación del Insert Sort
+Es una mejora del Insert Sort, donde se comparan los elementos separados por un espacio de varias posiciones, al tiempo que se los intercambian si corresponde. A medida que los pasos aumentan, disminuye el tamaño de los saltos. Así que es útil cuando los datos se encuentres cercanos o lejanos
+
+Se utilizaría para acomodar listas de tamaño moderado, gracias a su velocidad aceptable y codificación sencilla.
+
+Un ejemplo real sería cuando se tiene que acomodar los registros que contaron que tipo de auto pasó por una calle concurrida durante un día, en donde los datos son muy revueltos y con espacios de varias posiciones.
 
 
 Análisis de complejidad
 -----------------
-Es O(n(log(n))^2), ya que 
+Es O(n(log(n))^2), gracias a los saltos que da para intercambiar los elementos separados y por los ciclos for que realiza.
 
 
 Bibliografía
