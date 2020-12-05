@@ -3,19 +3,17 @@
 Son dos programas, cada uno en una carpeta (agregadas en la Act 6, en las otras solo viene un programa) en una viene la estructura nueva implementada y la otra con las demás
 
 
-**Modificaciones**
+**Correcciones**
 -------------------------------
-Act 5
---------
 
--Se modificó el análisis de complejidad de la lectura del archvio
+comp: Usa un algoritmo de hashing adecauado para resolver un problema
 
--Se agrego el hash, para buscar el ID de un trabajador que se seleccione
+correción: Se agrego una tabla Hash al proyecto, en la carpeta
 
-Act 6
--------
--Se modificó el análisis de complejidad de la escritura de archivos y la de los métodos Hash
+comp: Hace un análisis de complejidad correcto y completo para todos los programas que elabora
 
--La escritura de archivos ya funciona correctamente
+correción: Se corrigió el análisis de complejidad de la escrita de datos en el archivo, ya del Hash y se agregó la de la nueva 
 
--Se agrego una nueva estrucura de datos (Shell Sort) con un nuevo programa y texto con datos, junto con sus casos de prueba, explicación, complejidad y ejemplos.
+comp: "SEG0702A Tecnologías de Vanguardia 3 de 3"
+
+correción: Se agregó una nueva estructura de datos, donde se utiliza en un programa aparte (carpeta 
