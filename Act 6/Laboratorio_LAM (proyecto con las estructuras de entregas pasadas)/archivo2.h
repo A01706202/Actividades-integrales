@@ -22,7 +22,6 @@ class TablaEntrada {
     public:
        string k;
        string v;
-       int esp = 7;
        TablaEntrada(string k, string v);
       
       friend class Hash<T>;
@@ -37,9 +36,8 @@ TablaEntrada<T>::TablaEntrada(string k, string v) {
 template <class T>
 class Hash {
 	private:
-		int esp = 7;
 		TablaEntrada<T> **t;
-		
+		int esp = 7;
 	public:
 		Hash();
 		~Hash();
@@ -82,7 +80,7 @@ int Hash<T>::funcion_hash(string k){
 	else
 		a=835;
 		
-	return a%esp;
+	return a;
 }
 
 template <class T>
