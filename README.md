@@ -18,7 +18,7 @@ comp: "SEG0702A Tecnologías de Vanguardia 3 de 3" (Esta se puso en la entrega d
 
 correción: Se agregó una nueva estructura de datos (Shell Sort), donde se utiliza en un programa aparte (carpeta Empleados_LaboratorioLAM, shellsort.h) de manera correcta y explica cada parte del algoritmo correctamente, y en un readme se explica su complejidad, explicación, ejemplos en donde se utilizaría en un caso real y bibliografía. También se puso los casos de prueba
 
-**Correcciones sábado**
+**Correcciones finales**
 ----------------------------
 comp: Usa un algoritmo de hashing adecauado para resolver un problema
 
