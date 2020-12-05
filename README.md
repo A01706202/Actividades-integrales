@@ -1,6 +1,6 @@
 **Distribución de repositorio**
 ------------------------------
-Son dos programas, cada uno en una carpeta (agregadas en la Act 6) en una viene la estructura nueva implementada y la otra con las demás
+Son dos programas, cada uno en una carpeta (agregadas en la Act 6, en las otras solo viene un programa) en una viene la estructura nueva implementada y la otra con las demás
 
 
 **Modificaciones**
